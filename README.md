@@ -4,6 +4,7 @@ Simulation of a Stirling engine in MIT Scheme using the scmutils library. Some o
 Screenshots:
 
 Close, but Wrong
-The results are what one would expect if the engine's initial condition is a non-zero velocity. The temperature of the gas actually drops below the temperature of the cold reservoir initially as the piston pulls a vacuum, and the temperature rises above that of the hot reservoir when the piston compresses.
+
+The results are what one would expect if the engine's initial condition is a non-zero velocity. The temperature of the gas actually drops below the temperature of the cold reservoir initially as the piston pulls a vacuum, and the temperature rises above that of the hot reservoir when the piston compresses. Note that the piston is actually descending in the cylinder after the piston hits pi.
 
 ![alt text](https://github.com/jtmayer/scmutils-stirling-lagrangian/blob/main/close-but-wrong.png?raw=true)
