@@ -76,7 +76,7 @@
 
   (let ((T-final (+ T-cold (* .8 (- T-hot T-cold)))) ;; final temperature
 	(T0 T-cold)) ;; initial temperature
-    (display "This may take a while to start displaying. Graph will update as new minimum path is computed.\n")
+    (display "\nThis may take a while to start displaying. Graph will update as new minimum path is computed.\n")
     (find-path (L-stirling m conduction gas-const df stroke ccl bore T-cold T-hot)
 	       start-time
 	       (up q0 T0)
